@@ -68,11 +68,6 @@ namespace Szamologep_AFP_KisProject
             //0
         }
 
-        private void btn_del_Click(object sender, EventArgs e)
-        {
-            //törlés
-        }
-
         private void btn_dec_Click(object sender, EventArgs e)
         {
             //tizedesvessző
@@ -103,6 +98,24 @@ namespace Szamologep_AFP_KisProject
             //egyenlő
         }
 
-        
+        private void btn_del_Click(object sender, EventArgs e)
+        {
+            //karakter törlése
+        }
+
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            //grid ürítése
+        }
+
+        private void btn_open_Click(object sender, EventArgs e)
+        {
+            //nyitó zárójel
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            //záró zárójel
+        }
     }
 }
