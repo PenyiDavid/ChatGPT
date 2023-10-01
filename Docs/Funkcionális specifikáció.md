@@ -21,20 +21,24 @@ A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és 
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 |  |  |  |
-| K2 |  |  |  |
-| K3 |  |  |  |
-| K4 |  |  |  |
+| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredméynét jeleníti meg. |
+| K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
 
 ## 6. Használati esetek
 
+Alapvető aritmetikai műveletek elvégzésére lehet használni.
+
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
+K1, K2: A felhasználó a gombok segítségével viszi be a számokat, illetve a műveleteket, majd az eredmény a kijelzőn megjelenik.
 
 ## 8. Képernyőtervek
 
 ## 9. Forgatókönyvek
 
 ## 10. Funkció - követelmény megfeleltetése
+
+K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmény. K2: A különböző gombok megnyomásával bevihetőek a számok, amikkel műveletet kell elvégezni, és maguk a műveletek. 
 
 ## 11 Fogalomszótár
 | Fogalom | Leírás |

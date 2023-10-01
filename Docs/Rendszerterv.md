@@ -47,13 +47,12 @@ A rendszer célja egy számológép, amellyel az emberek megkönnyíthetik a mun
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 |  |  |  |
-| K2 |  |  |  |
-| K3 |  |  |  |
-| K4 |  |  |  |
+| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredméynét jeleníti meg. |
+| K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
 
 ### Támogatott eszközök
 
+Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép elég a használatához, internetkapcsolat sem szükséges hozzá.
 
 ## 5. Funkcionális terv
 
@@ -62,22 +61,28 @@ A rendszer célja egy számológép, amellyel az emberek megkönnyíthetik a mun
 - felhasználó
 
 ### 5.2 Menühierarchiák
+
+- Felhasználó
+    - Beüthet számjegyeket, műveleti jeleket.
+    - Törölhet számjegyeket, műveleti jeleket.
   
 ## 6. Fizikai környezet
 
-
-
+- **Egy asztali alkalmazást készítünk, nem szükséges futtató program.**
+  - **Nincsenek megvásárolt komponensek.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio 2023**
 
 ## 7. Architekturális terv
 
-
+A programot C# nyelven írjuk. A megjelenést Windows Forms App-pal fogjuk megoldani.
 
 ## 8. Implementációs terv
 
 
 ## 9. Tesztterv
 
-
+A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
 
 ## 10. Telepítési terv
 
