@@ -38,6 +38,7 @@ A rendszer célja egy számológép létrehozása. A számológépek a mindennap
 ## 3. Üzleti folyamatok modellje
 
 
+
 ![Üzletifolyamat](../Project/Pictures/uzleti_folyamatok_modellje.png)
 
 ## 4. Követelmények
