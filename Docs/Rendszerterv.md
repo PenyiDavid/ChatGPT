@@ -75,14 +75,14 @@ Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép el
 
 ## 7. Architekturális terv
 
-A program C# nyelven íródott. A Megjelenést Windows Forms App-pal oldottuk meg.
+A programot C# nyelven írjuk. A megjelenést Windows Forms App-pal fogjuk megoldani.
 
 ## 8. Implementációs terv
 
 
 ## 9. Tesztterv
 
-
+A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
 
 ## 10. Telepítési terv
 
