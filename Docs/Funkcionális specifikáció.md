@@ -21,10 +21,9 @@ A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és 
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 |  |  |  |
-| K2 |  |  |  |
-| K3 |  |  |  |
-| K4 |  |  |  |
+| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredméynét jeleníti meg. |
+| K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
+| K3 | Háttérprogram | A műveleteket végzi el. |
 
 ## 6. Használati esetek
 
