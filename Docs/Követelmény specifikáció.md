@@ -11,7 +11,7 @@ A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk sorá
 
 ## 3. Vágyálomrendszer
 
-
+A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és gyors alkalmazást kapjanak.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
