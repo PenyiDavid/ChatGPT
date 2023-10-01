@@ -47,13 +47,12 @@ A rendszer célja egy számológép, amellyel az emberek megkönnyíthetik a mun
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 |  |  |  |
-| K2 |  |  |  |
-| K3 |  |  |  |
-| K4 |  |  |  |
+| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredméynét jeleníti meg. |
+| K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
 
 ### Támogatott eszközök
 
+Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép elég a használatához, internetkapcsolat sem szükséges hozzá.
 
 ## 5. Funkcionális terv
 
