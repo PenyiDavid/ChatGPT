@@ -1,7 +1,7 @@
 ﻿# Rendszerterv
 ## 1. A rendszer célja
 
-A rendszer célja egy számológép létrehozása. A számológépek a mindennapjaink részét képezik, szinte minden területen ott vannak. Ez a program is ezt a célt szolgálja majd.
+A rendszer célja egy számológép, amellyel az emberek megkönnyíthetik a munkát. A számológépek a mindennapjaink részét képezik, szinte minden területen ott vannak. Ez a program is ezt a célt szolgálja majd.
 
 ## 2. Projektterv
 
