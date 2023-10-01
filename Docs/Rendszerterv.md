@@ -68,8 +68,10 @@ Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép el
   
 ## 6. Fizikai környezet
 
-
-
+- **Egy asztali alkalmazást készítünk, nem szükséges futtató program.**
+  - **Nincsenek megvásárolt komponensek.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio 2023**
 
 ## 7. Architekturális terv
 
