@@ -1,11 +1,14 @@
-# Funkcionális specifikáció
+﻿# Funkcionális specifikáció
 
 ## 1. Jelenlegi helyzet leírása
+
+A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk során, amelyek nem használják túlságosan a számítógépünket. Ezért a legtöbb cég az alkalmazásait minél egyszerűbben és letisztultabban tervezi meg.
 
 
 
 ## 2. Vágyállomrendszer leírása
 
+A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és gyors alkalmazást kapjanak.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
