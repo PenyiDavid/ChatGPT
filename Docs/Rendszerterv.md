@@ -61,6 +61,10 @@ Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép el
 - felhasználó
 
 ### 5.2 Menühierarchiák
+
+- Felhasználó
+    - Beüthet számjegyeket, műveleti jeleket.
+    - Törölhet számjegyeket, műveleti jeleket.
   
 ## 6. Fizikai környezet
 
