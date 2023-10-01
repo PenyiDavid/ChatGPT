@@ -75,7 +75,7 @@ Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép el
 
 ## 7. Architekturális terv
 
-
+A program C# nyelven íródott. A Megjelenést Windows Forms App-pal oldottuk meg.
 
 ## 8. Implementációs terv
 
