@@ -38,6 +38,8 @@ K1, K2: A felhasználó a gombok segítségével viszi be a számokat, illetve a
 
 ## 10. Funkció - követelmény megfeleltetése
 
+K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmény. K2: A különböző gombok megnyomásával bevihetőek a számok, amikkel műveletet kell elvégezni, és maguk a műveletek. 
+
 ## 11 Fogalomszótár
 | Fogalom | Leírás |
 | :---: | --- |
