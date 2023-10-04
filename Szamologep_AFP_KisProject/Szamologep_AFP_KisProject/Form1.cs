@@ -129,16 +129,61 @@ namespace Szamologep_AFP_KisProject
         private void btn6_Click(object sender, EventArgs e)
         {
             //6
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 6;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 6;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
             //7
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 7;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 7;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
             //8
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 8;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 8;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
