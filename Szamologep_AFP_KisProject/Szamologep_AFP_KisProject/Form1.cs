@@ -92,14 +92,14 @@ namespace Szamologep_AFP_KisProject
             if (Global.TizedesVesszo == true)
             {
                 Global.szamlalo++;
-                double sSzam = 3;
+                double sSzam = 4;
                 double seged = Global.tortresz * 10;
                 Global.tortresz = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
             else
             {
-                double sSzam = 3;
+                double sSzam = 4;
                 double seged = Global.osszeg * 10;
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
@@ -189,17 +189,47 @@ namespace Szamologep_AFP_KisProject
         private void btn9_Click(object sender, EventArgs e)
         {
             //9
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 9;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 9;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
             //0
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 0;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 0;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn_dec_Click(object sender, EventArgs e)
         {
             //tizedesvessző
-            Global.TizedesVesszo =true;
+            Global.TizedesVesszo = true;
         }
 
         private void btn_div_Click(object sender, EventArgs e)
