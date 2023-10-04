@@ -33,8 +33,8 @@ namespace Szamologep_AFP_KisProject
             {
                 Global.szamlalo++;
                 double sSzam = 1;
-                double seged = Global.osszeg * 10;
-                Global.osszeg = sSzam+seged;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam+seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
             else
@@ -43,15 +43,27 @@ namespace Szamologep_AFP_KisProject
                 double seged = Global.osszeg * 10;
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
-                
-
             }
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
             //2
-            
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 2;
+                double seged = Global.tortresz * 10;
+                Global.tortresz = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 2;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
         }
 
         private void btn3_Click(object sender, EventArgs e)

@@ -8,7 +8,7 @@ namespace Szamologep_AFP_KisProject
 {
     static class Global
     {
-
+        public static double tortresz=0;
         public static double osszeg=0;
         public static bool TizedesVesszo = false;
         public static int szamlalo=0;
