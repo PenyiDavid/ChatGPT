@@ -44,5 +44,5 @@ K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmén
 ## 11 Fogalomszótár
 | Fogalom | Leírás |
 | :---: | --- |
-|  |  |
-|  |  |
+| C -gomb| kijelző ürítése|
+| DEL -gomb | karakterek egyenkénti törlése |
