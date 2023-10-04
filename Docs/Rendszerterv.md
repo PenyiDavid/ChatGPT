@@ -86,7 +86,7 @@ A programot C# nyelven írjuk. A megjelenést Windows Forms App-pal fogjuk megol
 A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
 
 ## 10. Telepítési terv
-
+Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a számítógép .NET keretrendszerrel, így az alkalmazást bármikor tudja futtatni a felhasználó.
 
 
 ## 11. Karbantartási terv
