@@ -14,6 +14,7 @@ A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk sorá
 A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és gyors alkalmazást kapjanak.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+Jelenleg a megrendelőnek nincs megfelelő számológépe, amivel könnyedén tudna dolgozni a mindennapokban.
 
 
 
