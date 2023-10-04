@@ -31,3 +31,7 @@ A megrendelő bárhol és bármikor könnyedén tudja használni a letisztult sz
 | K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
 
 ## 7. Fogalomtár
+| Fogalom | Leírás |
+| :---: | --- |
+| C -gomb| kijelző ürítése|
+| DEL -gomb | karakterek egyenkénti törlése |
