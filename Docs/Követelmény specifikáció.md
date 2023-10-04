@@ -19,6 +19,7 @@ Jelenleg a megrendelőnek nincs megfelelő számológépe, amivel könnyedén tu
 
 
 ## 5. Igényelt üzleti folyamatok modellje
+A megrendelő bárhol és bármikor könnyedén tudja használni a letisztult számológépet.
 
 
 
