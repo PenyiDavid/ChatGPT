@@ -80,6 +80,7 @@ A programot C# nyelven írjuk. A megjelenést Windows Forms App-pal fogjuk megol
 ## 8. Implementációs terv
 
 
+
 ## 9. Tesztterv
 
 A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
@@ -89,4 +90,3 @@ A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mez
 
 
 ## 11. Karbantartási terv
-

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32.SafeHandles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,13 @@ namespace Szamologep_AFP_KisProject
 {
     public partial class Form1 : Form
     {
+        //public double  HozzaAd(double elsoSzam, double masodikSzam)
+        //{
+        //    double seged = elsoSzam * 10;
+        //    elsoSzam = seged + masodikSzam;
+        //    Global.osszeg = elsoSzam;
+        //    return Global.osszeg;
+        //}
         public Form1()
         {
             InitializeComponent();
@@ -21,11 +29,29 @@ namespace Szamologep_AFP_KisProject
         private void btn1_Click(object sender, EventArgs e)
         {
             //1
+            if (Global.TizedesVesszo == true)
+            {
+                Global.szamlalo++;
+                double sSzam = 1;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam+seged;
+                //HozzaAd(Global.osszeg, sSzam);
+            }
+            else
+            {
+                double sSzam = 1;
+                double seged = Global.osszeg * 10;
+                Global.osszeg = sSzam + seged;
+                //HozzaAd(Global.osszeg, sSzam);
+                
+
+            }
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
             //2
+            
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -71,6 +97,7 @@ namespace Szamologep_AFP_KisProject
         private void btn_dec_Click(object sender, EventArgs e)
         {
             //tizedesvessző
+            Global.TizedesVesszo =true;
         }
 
         private void btn_div_Click(object sender, EventArgs e)
