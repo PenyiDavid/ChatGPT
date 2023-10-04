@@ -90,3 +90,6 @@ Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a szá
 
 
 ## 11. Karbantartási terv
+Figyelembe kell venni a felhasználó által jött visszajelzéseket is a programmal kapcsolatban. Ha hibát talált, mielőbb orvosolni kell, lehet az:
+  -Működéssel kapcsolatos
+  -Dizájnnal kapcsolatos
