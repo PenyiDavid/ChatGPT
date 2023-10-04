@@ -33,6 +33,7 @@ Alapvető aritmetikai műveletek elvégzésére lehet használni.
 K1, K2: A felhasználó a gombok segítségével viszi be a számokat, illetve a műveleteket, majd az eredmény a kijelzőn megjelenik.
 
 ## 8. Képernyőtervek
+![Képernyőterv](../kepernyoterv.png)
 
 ## 9. Forgatókönyvek
 
