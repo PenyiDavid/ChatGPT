@@ -230,12 +230,12 @@
             // 
             // result
             // 
-            this.result.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.result.Location = new System.Drawing.Point(12, 12);
-            this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(360, 70);
-            this.result.TabIndex = 16;
-            this.result.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.result_CellContentClick);
+            this.Result.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Result.Location = new System.Drawing.Point(12, 12);
+            this.Result.Name = "result";
+            this.Result.Size = new System.Drawing.Size(360, 70);
+            this.Result.TabIndex = 16;
+            this.Result.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.result_CellContentClick);
             // 
             // btn_del
             // 
@@ -286,7 +286,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 461);
-            this.Controls.Add(this.result);
+            this.Controls.Add(this.Result);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_open);
             this.Controls.Add(this.btn_clear);
@@ -310,7 +310,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.result)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Result)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -333,7 +333,7 @@
         private System.Windows.Forms.Button btn_min;
         private System.Windows.Forms.Button btn_plus;
         private System.Windows.Forms.Button btn_res;
-        private System.Windows.Forms.DataGridView result;
+        private System.Windows.Forms.DataGridView Result;
         private System.Windows.Forms.Button btn_del;
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Button btn_open;
