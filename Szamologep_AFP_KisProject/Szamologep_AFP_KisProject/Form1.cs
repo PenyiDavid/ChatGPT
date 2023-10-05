@@ -26,6 +26,12 @@ namespace Szamologep_AFP_KisProject
             
         }
 
+        double calculation;
+        string option;
+        double num1;
+        double num2;
+        double result;
+
         private void btn1_Click(object sender, EventArgs e)
         {
             //1
@@ -239,21 +245,38 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_mul_Click(object sender, EventArgs e)
         {
+            option = "*";
+            num1 = Global.osszeg;
             //szorzás
         }
 
         private void btn_min_Click(object sender, EventArgs e)
         {
-            //kivonás
+            option = "-";
+            num1 = Global.osszeg;
+  
         }
 
         private void btn_plus_Click(object sender, EventArgs e)
         {
+            option = "-";
+            num1 = Global.osszeg;
             //összeadás
         }
 
         private void btn_res_Click(object sender, EventArgs e)
         {
+            num2 = Global.osszeg;
+
+            if (option.Equals("+"))
+                calculation = num1 + num2;
+            else if (option.Equals("-"))
+                calculation = num1 - num2;
+            else if (option.Equals("/"))
+                calculation = num1 / num2;
+            else if (option.Equals("*"))
+                calculation = num1 * num2;
+
             //egyenlő
         }
 
@@ -275,6 +298,11 @@ namespace Szamologep_AFP_KisProject
         private void btn_close_Click(object sender, EventArgs e)
         {
             //záró zárójel
+        }
+
+        private void result_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

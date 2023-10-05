@@ -235,6 +235,7 @@
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(360, 70);
             this.result.TabIndex = 16;
+            this.result.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.result_CellContentClick);
             // 
             // btn_del
             // 
@@ -285,11 +286,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 461);
+            this.Controls.Add(this.result);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_open);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_del);
-            this.Controls.Add(this.result);
             this.Controls.Add(this.btn_res);
             this.Controls.Add(this.btn_plus);
             this.Controls.Add(this.btn_min);

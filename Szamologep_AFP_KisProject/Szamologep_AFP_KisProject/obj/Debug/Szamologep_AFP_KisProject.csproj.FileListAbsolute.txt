@@ -19,3 +19,14 @@ C:\Users\soosj\Desktop\github\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_K
 C:\Users\soosj\Desktop\github\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.exe.config
 C:\Users\soosj\Desktop\github\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.exe
 C:\Users\soosj\Desktop\github\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.pdb
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.exe.config
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.exe
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\bin\Debug\Szamologep_AFP_KisProject.pdb
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.csproj.AssemblyReference.cache
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.csproj.SuggestedBindingRedirects.cache
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.Form1.resources
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.Properties.Resources.resources
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.csproj.GenerateResource.cache
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.csproj.CoreCompileInputs.cache
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.exe
+D:\Suli\AFP\KisProjekt\ChatGPT\Szamologep_AFP_KisProject\Szamologep_AFP_KisProject\obj\Debug\Szamologep_AFP_KisProject.pdb
