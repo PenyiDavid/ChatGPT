@@ -291,6 +291,10 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
+            Global.tortresz = 0;
+            Global.osszeg = 0;
+            Global.szamlalo = 0;
+            Global.szamolasSegito = 0;
             //grid ürítése
         }
 
