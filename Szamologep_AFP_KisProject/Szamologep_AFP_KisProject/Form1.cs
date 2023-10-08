@@ -241,6 +241,7 @@ namespace Szamologep_AFP_KisProject
             option = "/";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.TizedesVesszo = false;
             //osztás
         }
 
@@ -249,6 +250,7 @@ namespace Szamologep_AFP_KisProject
             option = "*";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.TizedesVesszo = false;
             //szorzás
         }
 
@@ -257,6 +259,7 @@ namespace Szamologep_AFP_KisProject
             option = "-";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.TizedesVesszo = false;
             //kivonás
         }
 
@@ -265,6 +268,7 @@ namespace Szamologep_AFP_KisProject
             option = "-";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.TizedesVesszo = false;
             //összeadás
         }
 
@@ -280,6 +284,8 @@ namespace Szamologep_AFP_KisProject
                 calculation = num1 / num2;
             else if (option.Equals("*"))
                 calculation = num1 * num2;
+
+            Global.TizedesVesszo = false;
             //egyenlő
         }
 
@@ -295,6 +301,7 @@ namespace Szamologep_AFP_KisProject
             Global.osszeg = 0;
             Global.szamlalo = 0;
             Global.szamolasSegito = 0;
+            Global.TizedesVesszo = false;
             //grid ürítése
         }
 
