@@ -240,6 +240,9 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_div_Click(object sender, EventArgs e)
         {
+            option = "/";
+            num1 = Global.osszeg;
+            Global.osszeg = 0;
             //osztás
         }
 
