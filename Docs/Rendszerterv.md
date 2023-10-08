@@ -70,7 +70,7 @@ Egy asztali alkalmazást tervezünk, egy telefon, vagy asztali számítógép el
 
 - **Egy asztali alkalmazást készítünk, nem szükséges futtató program.**
   - **Nincsenek megvásárolt komponensek.**
-  - **Fejlesztői eszközök:**
+  - **Fejlesztői eszközök: **
     - **Visual Studio 2023**
 
 ## 7. Architekturális terv
@@ -83,7 +83,7 @@ A számológépet Windows Forms-ban fog elkészülni. A különböző számolás
 
 ## 9. Tesztterv
 
-A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ba dokumentálni fogja.
+A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ban dokumentálni fogja.
 
 ## 10. Telepítési terv
 Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a számítógép .NET keretrendszerrel, így az alkalmazást bármikor tudja futtatni a felhasználó.
