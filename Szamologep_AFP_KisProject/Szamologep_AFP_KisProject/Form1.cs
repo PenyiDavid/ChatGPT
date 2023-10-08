@@ -29,7 +29,6 @@ namespace Szamologep_AFP_KisProject
         string option;
         double num1;
         double num2;
-        double result;
 
         private void btn1_Click(object sender, EventArgs e)
         {
