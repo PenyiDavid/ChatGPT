@@ -79,11 +79,11 @@ A programot C# nyelven írjuk. A megjelenést Windows Forms App-pal fogjuk megol
 
 ## 8. Implementációs terv
 
-
+A számológépet Windows Forms-ban fog elkészülni. A különböző számolási elemeket és egyéb gombok funkcióit elkülönítve, jól átláthatóan, kommentekkel hozzuk létre. 
 
 ## 9. Tesztterv
 
-A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
+A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, számolás helyességének, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ba dokumentálni fogja.
 
 ## 10. Telepítési terv
 Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a számítógép .NET keretrendszerrel, így az alkalmazást bármikor tudja futtatni a felhasználó.
