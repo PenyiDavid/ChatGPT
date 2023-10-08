@@ -22,8 +22,7 @@ namespace Szamologep_AFP_KisProject
         //}
         public Form1()
         {
-            InitializeComponent();
-            
+            InitializeComponent();  
         }
 
         double calculation;
