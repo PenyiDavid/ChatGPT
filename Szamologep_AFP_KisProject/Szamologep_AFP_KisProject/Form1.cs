@@ -240,7 +240,7 @@ namespace Szamologep_AFP_KisProject
         private void btn_div_Click(object sender, EventArgs e)
         {
             option = "/";
-            num1 = Global.osszeg;
+            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
             //osztás
         }
@@ -248,7 +248,7 @@ namespace Szamologep_AFP_KisProject
         private void btn_mul_Click(object sender, EventArgs e)
         {
             option = "*";
-            num1 = Global.osszeg;
+            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
             //szorzás
         }
@@ -256,7 +256,7 @@ namespace Szamologep_AFP_KisProject
         private void btn_min_Click(object sender, EventArgs e)
         {
             option = "-";
-            num1 = Global.osszeg;
+            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
             //kivonás
         }
@@ -264,14 +264,14 @@ namespace Szamologep_AFP_KisProject
         private void btn_plus_Click(object sender, EventArgs e)
         {
             option = "-";
-            num1 = Global.osszeg;
+            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
             //összeadás
         }
 
         private void btn_res_Click(object sender, EventArgs e)
         {
-            num2 = Global.osszeg;
+            num2 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
 
             if (option.Equals("+"))
                 calculation = num1 + num2;
