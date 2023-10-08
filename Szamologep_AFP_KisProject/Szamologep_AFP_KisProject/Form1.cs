@@ -241,6 +241,7 @@ namespace Szamologep_AFP_KisProject
             option = "/";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.tortresz = 0;
             Global.TizedesVesszo = false;
             //osztás
         }
@@ -250,6 +251,7 @@ namespace Szamologep_AFP_KisProject
             option = "*";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.tortresz = 0;
             Global.TizedesVesszo = false;
             //szorzás
         }
@@ -259,6 +261,7 @@ namespace Szamologep_AFP_KisProject
             option = "-";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.tortresz = 0;
             Global.TizedesVesszo = false;
             //kivonás
         }
@@ -268,6 +271,7 @@ namespace Szamologep_AFP_KisProject
             option = "-";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
+            Global.tortresz = 0;
             Global.TizedesVesszo = false;
             //összeadás
         }
@@ -285,13 +289,13 @@ namespace Szamologep_AFP_KisProject
             else if (option.Equals("*"))
                 calculation = num1 * num2;
 
+            Global.tortresz = 0;
             Global.TizedesVesszo = false;
             //egyenlő
         }
 
         private void btn_del_Click(object sender, EventArgs e)
         {
-            Global.osszeg = 0;
             //karakter törlése
         }
 
