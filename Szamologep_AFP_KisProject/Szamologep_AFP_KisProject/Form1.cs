@@ -247,6 +247,7 @@ namespace Szamologep_AFP_KisProject
         {
             option = "*";
             num1 = Global.osszeg;
+            Global.osszeg = 0;
             //szorzás
         }
 
@@ -254,13 +255,15 @@ namespace Szamologep_AFP_KisProject
         {
             option = "-";
             num1 = Global.osszeg;
-  
+            Global.osszeg = 0;
+            //kivonás
         }
 
         private void btn_plus_Click(object sender, EventArgs e)
         {
             option = "-";
             num1 = Global.osszeg;
+            Global.osszeg = 0;
             //összeadás
         }
 
@@ -282,6 +285,7 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_del_Click(object sender, EventArgs e)
         {
+            Global.osszeg = 0;
             //karakter törlése
         }
 

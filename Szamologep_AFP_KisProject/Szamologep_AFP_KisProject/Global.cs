@@ -12,5 +12,6 @@ namespace Szamologep_AFP_KisProject
         public static double osszeg=0;
         public static bool TizedesVesszo = false;
         public static int szamlalo=0;
+        public static double szamolasSegito = 0;
     }
 }
