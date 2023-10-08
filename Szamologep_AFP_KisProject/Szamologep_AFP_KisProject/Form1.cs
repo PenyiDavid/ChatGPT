@@ -234,8 +234,8 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_dec_Click(object sender, EventArgs e)
         {
-            //tizedesvessző
             Global.TizedesVesszo = true;
+            //tizedesvessző    
         }
 
         private void btn_div_Click(object sender, EventArgs e)
@@ -282,7 +282,6 @@ namespace Szamologep_AFP_KisProject
                 calculation = num1 / num2;
             else if (option.Equals("*"))
                 calculation = num1 * num2;
-
             //egyenlő
         }
 
