@@ -45,4 +45,4 @@ K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmén
 | Fogalom | Leírás |
 | :---: | --- |
 | c#| Programozási nyelv, ebben írjuk meg a programot|
-|  |   |
+| Aritmetikai művelet |  összeadás, kivpnás, szozás, osztás műveletek |
