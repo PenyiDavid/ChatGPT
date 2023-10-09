@@ -29,16 +29,16 @@ namespace Szamologep_AFP_KisProject
         string option;
         double num1;
         double num2;
+        
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            //1
             if (Global.TizedesVesszo == true)
             {
                 Global.szamlalo++;
                 double sSzam = 1;
                 double seged = Global.tortresz * 10;
-                Global.tortresz = sSzam+seged;
+                Global.tortresz = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
             else
@@ -48,6 +48,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "1";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -68,6 +70,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "2";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -88,6 +92,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "3";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -108,11 +114,14 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "4";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
             //5
+            
             if (Global.TizedesVesszo == true)
             {
                 Global.szamlalo++;
@@ -128,6 +137,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "5";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -148,6 +159,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "6";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -168,6 +181,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "7";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -188,6 +203,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "8";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -208,6 +225,8 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "9";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -228,11 +247,15 @@ namespace Szamologep_AFP_KisProject
                 Global.osszeg = sSzam + seged;
                 //HozzaAd(Global.osszeg, sSzam);
             }
+            Global.kiirt += "0";
+            label_result.Text = Global.kiirt;
         }
 
         private void btn_dec_Click(object sender, EventArgs e)
         {
             Global.TizedesVesszo = true;
+            Global.kiirt += ",";
+            label_result.Text = Global.kiirt;
             //tizedesvessző    
         }
 
@@ -243,6 +266,8 @@ namespace Szamologep_AFP_KisProject
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
+            Global.kiirt += "/";
+            label_result.Text = Global.kiirt;
             //osztás
         }
 
@@ -253,6 +278,8 @@ namespace Szamologep_AFP_KisProject
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
+            Global.kiirt += "*";
+            label_result.Text = Global.kiirt;
             //szorzás
         }
 
@@ -263,16 +290,20 @@ namespace Szamologep_AFP_KisProject
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
+            Global.kiirt += "-";
+            label_result.Text = Global.kiirt;
             //kivonás
         }
 
         private void btn_plus_Click(object sender, EventArgs e)
         {
-            option = "-";
+            option = "+";
             num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
+            Global.kiirt += "+";
+            label_result.Text = Global.kiirt;
             //összeadás
         }
 
@@ -289,14 +320,14 @@ namespace Szamologep_AFP_KisProject
             else if (option.Equals("*"))
                 calculation = num1 * num2;
 
+
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
-            //egyenlő
-        }
+            Global.kiirt = Convert.ToString(calculation);
+            label_result.Text = Global.kiirt;
+            //num2 = calculation;
 
-        private void btn_del_Click(object sender, EventArgs e)
-        {
-            //karakter törlése
+            //egyenlő
         }
 
         private void btn_clear_Click(object sender, EventArgs e)
@@ -306,22 +337,15 @@ namespace Szamologep_AFP_KisProject
             Global.szamlalo = 0;
             Global.szamolasSegito = 0;
             Global.TizedesVesszo = false;
+            Global.kiirt = "";
+            label_result.Text = Global.kiirt;
             //grid ürítése
         }
 
-        private void btn_open_Click(object sender, EventArgs e)
-        {
-            //nyitó zárójel
-        }
-
-        private void btn_close_Click(object sender, EventArgs e)
-        {
-            //záró zárójel
-        }
 
         private void result_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            label_result.Text = Global.kiirt;
         }
     }
 }

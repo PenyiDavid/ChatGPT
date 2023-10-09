@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Szamologep_AFP_KisProject
 {
@@ -13,5 +14,6 @@ namespace Szamologep_AFP_KisProject
         public static bool TizedesVesszo = false;
         public static int szamlalo=0;
         public static double szamolasSegito = 0;
+        public static string kiirt = "";
     }
 }
