@@ -29,6 +29,7 @@ namespace Szamologep_AFP_KisProject
         string option;
         double num1;
         double num2;
+        double hatvany;
         
 
         private void btn1_Click(object sender, EventArgs e)
@@ -262,7 +263,9 @@ namespace Szamologep_AFP_KisProject
         private void btn_div_Click(object sender, EventArgs e)
         {
             option = "/";
-            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
+            hatvany = Math.Pow(10, Global.szamlalo);
+            num1 = Global.osszeg + (Global.tortresz / hatvany);
+            Global.szamlalo = 0;
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
@@ -274,7 +277,9 @@ namespace Szamologep_AFP_KisProject
         private void btn_mul_Click(object sender, EventArgs e)
         {
             option = "*";
-            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
+            hatvany = Math.Pow(10, Global.szamlalo);
+            num1 = Global.osszeg + (Global.tortresz / hatvany);
+            Global.szamlalo = 0;
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
@@ -286,7 +291,9 @@ namespace Szamologep_AFP_KisProject
         private void btn_min_Click(object sender, EventArgs e)
         {
             option = "-";
-            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
+            hatvany = Math.Pow(10, Global.szamlalo);
+            num1 = Global.osszeg + (Global.tortresz / hatvany);
+            Global.szamlalo = 0;
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
@@ -298,7 +305,9 @@ namespace Szamologep_AFP_KisProject
         private void btn_plus_Click(object sender, EventArgs e)
         {
             option = "+";
-            num1 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
+            hatvany = Math.Pow(10, Global.szamlalo);
+            num1 = Global.osszeg + (Global.tortresz / hatvany);
+            Global.szamlalo = 0;
             Global.osszeg = 0;
             Global.tortresz = 0;
             Global.TizedesVesszo = false;
@@ -309,7 +318,9 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_res_Click(object sender, EventArgs e)
         {
-            num2 = Global.osszeg + (Global.tortresz * 10 / Math.Pow(10, 2));
+            hatvany = Math.Pow(10, Global.szamlalo);
+            num2 = Global.osszeg + (Global.tortresz / hatvany);
+           
 
             if (option.Equals("+"))
                 calculation = num1 + num2;
