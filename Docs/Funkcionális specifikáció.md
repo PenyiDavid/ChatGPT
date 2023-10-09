@@ -7,11 +7,11 @@ A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk sorá
 
 
 ## 2. Vágyállomrendszer leírása
-
-A program célja, hogy a felhasználók egy letisztult, könnyen kezelhető és gyors alkalmazást kapjanak.
+A megrendelő egy olyan számológép alkalmazást szeretne, amivel könnyedén tud egyszerűbb matematikkai feladatokat megoldani, egy olyan alkalmazást, amit könnyen megtud nyitni a számítógépéről és nem kell a számológépét előkeresnie.
+Az almalmazást kezdeti állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valósulhat meg. A megerndelő egy egyzserű számológépet kért letisztult dizájnnal és egyszerűen átlátható gombokkal, mert a célja a gyors és hatékony számolás, ezért egyértelmű gombokkal készítjük majd el. Nem szeretne bonyolult múveleteket végezni, csak összeadást, kivonást szorzást és osztást. A szoftvert c# nyelven fog elkészülni.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
-Jelenleg a megrendelőnek nincs megfelelő számológépe, amivel könnyedén tudna dolgozni a mindennapokban. 
+Jelenleg a megrendelőnek nincs megfelelő számítógépes számológépe, amivel könnyedén tudna dolgozni a mindennapokban.
 
 
 ## 4. Igényelt üzleti folyamatok modellje
@@ -44,5 +44,5 @@ K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmén
 ## 11 Fogalomszótár
 | Fogalom | Leírás |
 | :---: | --- |
-| C -gomb| kijelző ürítése|
-| DEL -gomb | karakterek egyenkénti törlése |
+| c#| Programozási nyelv, ebben írjuk meg a programot|
+|  |   |
