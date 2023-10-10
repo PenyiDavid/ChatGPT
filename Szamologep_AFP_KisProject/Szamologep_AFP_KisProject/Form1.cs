@@ -320,7 +320,11 @@ namespace Szamologep_AFP_KisProject
         {
             hatvany = Math.Pow(10, Global.szamlalo);
             num2 = Global.osszeg + (Global.tortresz / hatvany);
-           
+
+            if (calculation < 0 || calculation > 0)
+            {
+                num1 = calculation;
+            }
 
             if (option.Equals("+"))
                 calculation = num1 + num2;
@@ -343,6 +347,9 @@ namespace Szamologep_AFP_KisProject
 
         private void btn_clear_Click(object sender, EventArgs e)
         {
+            calculation = 0;
+            num1 = 0;
+            num2 = 0;
             Global.tortresz = 0;
             Global.osszeg = 0;
             Global.szamlalo = 0;
