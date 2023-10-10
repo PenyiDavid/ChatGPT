@@ -27,7 +27,7 @@ A megrendelő a számológépet a saját számítógépéről könnyen megtudja 
 
 ## 6. Követelménylista
 
-| Id | Modul | Név | Leírás |
+| Id | Modul | Név | Leírás | 
 | :---: | --- | --- | --- |
 | K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredményét jeleníti meg. |
 | K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |

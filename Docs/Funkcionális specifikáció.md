@@ -2,20 +2,21 @@
 
 ## 1. Jelenlegi helyzet leírása
 
-A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk során, amelyek nem használják túlságosan a számítógépünket. Ezért a legtöbb cég az alkalmazásait minél egyszerűbben és letisztultabban tervezi meg.
-
-
+A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk során, amelyek nem használják túlságosan a számítógépünk erőforrásait. Ezért a legtöbb cég az alkalmazásait minél egyszerűbben és letisztultabban tervezi meg.
 
 ## 2. Vágyállomrendszer leírása
+
 A megrendelő egy olyan számológép alkalmazást szeretne, amivel könnyedén tud egyszerűbb matematikai feladatokat megoldani, egy olyan alkalmazást, amit könnyen megtud nyitni a számítógépéről és nem kell a számológépét előkeresnie.
 Az alkalmazást kezdeti állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valósulhat meg. A megrendelő egy egyszerű számológépet kért letisztult dizájnnal és egyszerűen átlátható gombokkal, mert a célja a gyors és hatékony számolás, ezért egyértelmű gombokkal készítjük majd el. Nem szeretne bonyolult műveleteket végezni, csak összeadást, kivonást szorzást és osztást. A szoftvert c# nyelven fog elkészülni.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
-Jelenleg a megrendelőnek nincs számítógépes számológép alkalmazása, amivel könnyedén tudna egyszerűbb matematikai műveleteket elvégezni. Jelenleg mindig elő kell keresnie a számológépét és így nem elég hatékony a munkában és azonkívül.
+
+Jelenleg a megrendelőnek nincs számítógépes számológép alkalmazása, amivel könnyedén tudna egyszerűbb matematikai műveleteket elvégezni. Jelenleg mindig elő kell keresnie a számológépét és így nem elég hatékony a munkában és azonkívül. Emellett a bonyolultabb matematikai számolások felemésztenek rengeteg időt, a folyamatos ellenőrzések miatt.
 
 
 ## 4. Igényelt üzleti folyamatok modellje
-A megrendelő a számológépet képes lesz a számítógépéról könnyen megnyitni és gyors műveleteket végezni vele. Ha végzett a dolgával, egy kattintással be is tudja majd azt zárni.
+
+A megrendelő a számológépet képes lesz a számítógépéról könnyen megnyitni és gyors műveleteket végezni vele. A program áttekinthető és rendezett lesz, hogy a felhasználó könnyedén és hatékonyan tudjon vele dolgozni. Ha végzett a dolgával, egy kattintással be is tudja majd azt zárni.
 
 ## 5. Követelménylista
 
