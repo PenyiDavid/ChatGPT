@@ -14,6 +14,7 @@ A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk sorá
 A megrendelő egy olyan számológép alkalmazást szeretne, amivel könnyedén tud egyszerűbb matematikai feladatokat megoldani, egy olyan alkalmazást, amit könnyen megtud nyitni a számítógépéről és nem kell a számológépét előkeresnie. Az alkalmazást kezdeti állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valósulhat meg. A megrendelő egy egyszerű számológépet kért letisztult dizájnnal és egyszerűen átlátható gombokkal, mert a célja a gyors és hatékony számolás, ezért egyértelmű gombokkal készítjük majd el. Nem szeretne bonyolult műveleteket végezni, csak összeadást, kivonást szorzást és osztást. A szoftvert c# nyelven fog elkészülni.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+
 Jelenleg a megrendelőnek nincs számítógépes számológép alkalmazása, amivel könnyedén tudna egyszerűbb matematikai műveleteket elvégezni. Jelenleg mindig elő kell keresnie a számológépét és így nem elég hatékony a munkában és azonkívül
 
 
@@ -35,6 +36,9 @@ A megrendelő a számológépet a saját számítógépéről könnyen megtudja 
 | Fogalom | Leírás |
 | :---: | --- |
 | C#| programozási nyelv, az alkalmazást ebben fogjuk megírni|
+| szoftver| a számítógépen futó programok, amelyeket használunk|
+| alkalmazás| számítógépes program|
+
 
 
 |  |  |
