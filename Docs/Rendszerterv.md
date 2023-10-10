@@ -39,7 +39,7 @@ A rendszer célja egy számológép, amellyel az emberek megkönnyíthetik a mun
 
 
 
-![Üzletifolyamat](../Project/Pictures/uzleti_folyamatok_modellje.png)
+
 
 ## 4. Követelmények
 
