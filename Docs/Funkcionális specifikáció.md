@@ -7,21 +7,21 @@ A mai világban fontos, hogy olyan alkalmazásokat használjunk a munkánk sorá
 
 
 ## 2. Vágyállomrendszer leírása
-A megrendelő egy olyan számológép alkalmazást szeretne, amivel könnyedén tud egyszerűbb matematikkai feladatokat megoldani, egy olyan alkalmazást, amit könnyen megtud nyitni a számítógépéről és nem kell a számológépét előkeresnie.
-Az almalmazást kezdeti állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valósulhat meg. A megerndelő egy egyzserű számológépet kért letisztult dizájnnal és egyszerűen átlátható gombokkal, mert a célja a gyors és hatékony számolás, ezért egyértelmű gombokkal készítjük majd el. Nem szeretne bonyolult múveleteket végezni, csak összeadást, kivonást szorzást és osztást. A szoftvert c# nyelven fog elkészülni.
+A megrendelő egy olyan számológép alkalmazást szeretne, amivel könnyedén tud egyszerűbb matematikai feladatokat megoldani, egy olyan alkalmazást, amit könnyen megtud nyitni a számítógépéről és nem kell a számológépét előkeresnie.
+Az alkalmazást kezdeti állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valósulhat meg. A megrendelő egy egyszerű számológépet kért letisztult dizájnnal és egyszerűen átlátható gombokkal, mert a célja a gyors és hatékony számolás, ezért egyértelmű gombokkal készítjük majd el. Nem szeretne bonyolult műveleteket végezni, csak összeadást, kivonást szorzást és osztást. A szoftvert c# nyelven fog elkészülni.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
-Jelenleg a megrendelőnek nincs számítógépes szémológép alkalmazása, amivel könnyedén tudna egyszerűbb matematikai műveleteket elvágezni. Jelenleg mindig elő kell keresnie a számologépét és így nem elég hatékony a munkában és azonkívül.
+Jelenleg a megrendelőnek nincs számítógépes számológép alkalmazása, amivel könnyedén tudna egyszerűbb matematikai műveleteket elvégezni. Jelenleg mindig elő kell keresnie a számológépét és így nem elég hatékony a munkában és azonkívül.
 
 
 ## 4. Igényelt üzleti folyamatok modellje
-A megrendelő a számológépet képes lesz a számítógépéról könnyen megtudja nyitni és gyors műveleteket végezni vele. Ha vágzett a dolgával, egy katintással be is tudja majd azt zárni.
+A megrendelő a számológépet képes lesz a számítógépéról könnyen megnyitni és gyors műveleteket végezni vele. Ha végzett a dolgával, egy kattintással be is tudja majd azt zárni.
 
 ## 5. Követelménylista
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredméynét jeleníti meg. |
+| K1 | Felület | Kijelző | Az elvégzendő művelet, illetve a művelet eredményét jeleníti meg. |
 | K2 | Felület | Gombok | A számokat (0-9) illetve alapműveleteket tudja bevinni a felhasználó. |
 
 ## 6. Használati esetek
@@ -45,4 +45,4 @@ K1: A kijelzőn megjelennek a beütött számjegyek, műveletek, és az eredmén
 | Fogalom | Leírás |
 | :---: | --- |
 | c#| Programozási nyelv, ebben írjuk meg a programot|
-| Aritmetikai művelet |  összeadás, kivpnás, szozás, osztás műveletek |
+| Aritmetikai művelet | összeadás, kivonás, szorzás, osztás műveletek |
