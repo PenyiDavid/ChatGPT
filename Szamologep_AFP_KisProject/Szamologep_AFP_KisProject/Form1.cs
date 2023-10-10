@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace Szamologep_AFP_KisProject
 {
+
     public partial class Form1 : Form
     {
         //public double  HozzaAd(double elsoSzam, double masodikSzam)
@@ -326,14 +327,21 @@ namespace Szamologep_AFP_KisProject
                 num1 = calculation;
             }
 
-            if (option.Equals("+"))
-                calculation = num1 + num2;
-            else if (option.Equals("-"))
-                calculation = num1 - num2;
-            else if (option.Equals("/"))
-                calculation = num1 / num2;
-            else if (option.Equals("*"))
-                calculation = num1 * num2;
+            switch (option)
+            {
+                case "+":
+                    calculation = num1 + num2;
+                    break;
+                case "-":
+                    calculation = num1 - num2;
+                    break;
+                case "*":
+                    calculation = num1 * num2;
+                    break;
+                case "/":
+                    calculation = num1 / num2;
+                    break;
+            }
 
 
             Global.tortresz = 0;
