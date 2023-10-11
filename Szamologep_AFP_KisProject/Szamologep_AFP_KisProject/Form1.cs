@@ -348,7 +348,9 @@ namespace Szamologep_AFP_KisProject
             Global.TizedesVesszo = false;
             Global.kiirt = Convert.ToString(calculation);
             label_result.Text = Global.kiirt;
-            //num2 = calculation;
+            num1 = calculation;
+            num2 = 0;
+            
 
             //egyenlő
         }
